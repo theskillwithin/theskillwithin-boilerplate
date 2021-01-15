@@ -5,6 +5,7 @@
 This boilerplate features all the latest tools and practices in the industry.
 
 - ⚛ **React** — 17 with Hooks
+- React Router
 - ♻ **Context** — State Management
 - 🛠 **Babel** — ES6 syntax, Airbnb & React/Recommended config
 - 🚀 **Webpack 5** — Hot Reloading, Code Splitting, Optimized Build
