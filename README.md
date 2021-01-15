@@ -5,8 +5,8 @@
 This boilerplate features all the latest tools and practices in the industry.
 
 - ⚛ **React** — 17 with Hooks
-- React Router
-- Storybook 6
+- 🚥 **React Router**
+- 📓 **Storybook 6**
 - 🛠 **Babel** — ES6 syntax, Airbnb & React/Recommended config
 - 🚀 **Webpack 5** — Hot Reloading, Code Splitting, Optimized Build
 - 💅 **CSS** — Styled EmotionJS Components, CSS, Sass
