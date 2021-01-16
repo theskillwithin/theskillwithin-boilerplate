@@ -1,7 +1,7 @@
 {
     "parser": "babel-eslint",
-    "extends": ["airbnb", "prettier", "prettier/react", "cypress"],
-    "plugins": ["prettier", "react", "react-hooks"],
+    "extends": ["airbnb", "prettier", "prettier/react", "cypress", "plugin:jsx-a11y/recommended"],
+    "plugins": ["prettier", "react", "react-hooks", "jsx-a11y"],
     "settings": {
       "import/resolver": {
         "babel-plugin-root-import": {}
