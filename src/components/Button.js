@@ -50,6 +50,10 @@ const styles = (props) => css`
   text-align: center;
   text-transform: ${props.textTransform};
 
+  &:focus {
+    filter: drop-shadow(0px 0px 5px #57d8ff);
+  }
+
   &:hover {
     background: ${variants[props.variant].hoverBackground};
   }
