@@ -34,7 +34,7 @@
         "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
         "linebreak-style": "off",
         "global-require": "off",
-        "semi": "off",
+        "semi": ["error", "never"],
         "arrow-body-style": "off",
         "react/jsx-props-no-spreading": "off",
         "react-hooks/exhaustive-deps": "off",
