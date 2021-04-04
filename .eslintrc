@@ -1,6 +1,6 @@
 {
     "parser": "babel-eslint",
-    "extends": ["airbnb", "prettier", "prettier/react", "cypress", "plugin:jsx-a11y/recommended"],
+    "extends": ["airbnb", "prettier", "prettier/react", "cypress", "plugin:jsx-a11y/recommended", "react/jsx-runtime"],
     "plugins": ["prettier", "react", "react-hooks", "jsx-a11y"],
     "settings": {
       "import/resolver": {
@@ -36,8 +36,6 @@
         "global-require": "off",
         "semi": ["error", "never"],
         "arrow-body-style": "off",
-        "react/jsx-props-no-spreading": "off",
-        "react-hooks/exhaustive-deps": "off",
         "no-multiple-empty-lines": ["warn", { "max": 1 }],
         "import/prefer-default-export": "off",
         "no-unused-expressions": [
