@@ -25,8 +25,6 @@
         "space-before-function-paren": "off",
         "react/prefer-stateless-function": "warn",
         "react/jsx-one-expression-per-line": "off",
-        "react/jsx-uses-react": "off",
-        "react/react-in-jsx-scope": "off",
         "import/no-extraneous-dependencies": [
             "error",
             { "devDependencies": true }
@@ -36,6 +34,8 @@
         "global-require": "off",
         "semi": ["error", "never"],
         "arrow-body-style": "off",
+        "react/jsx-props-no-spreading": "off",
+        "react-hooks/exhaustive-deps": "off",
         "no-multiple-empty-lines": ["warn", { "max": 1 }],
         "import/prefer-default-export": "off",
         "no-unused-expressions": [
