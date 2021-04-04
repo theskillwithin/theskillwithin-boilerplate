@@ -1,6 +1,7 @@
 import webpack from 'webpack'
 import HtmlWebpackPlugin from 'html-webpack-plugin'
 import CopyPlugin from 'copy-webpack-plugin'
+import WebpackBuildNotifierPlugin from 'webpack-build-notifier'
 
 import paths from './paths'
 import rules from './rules'
@@ -18,6 +19,10 @@ module.exports = {
     new webpack.ProgressPlugin(),
     new CopyPlugin({
       patterns: [{ from: 'public', to: 'public' }],
+    }),
+    new WebpackBuildNotifierPlugin({
+      title: 'theskillwithin-boilerplate',
+      logo: paths.favicon,
     }),
     new HtmlWebpackPlugin({
       template: paths.templatePath,
