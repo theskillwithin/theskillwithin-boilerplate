@@ -11,5 +11,4 @@ module.exports = {
     publicPath: '/',
   },
   plugins: [new CleanWebpackPlugin()],
-  devtool: 'source-map',
 }
