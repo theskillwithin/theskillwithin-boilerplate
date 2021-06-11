@@ -31,4 +31,5 @@ module.exports = {
     historyApiFallback: true,
   },
   plugins: [new CaseSensitivePathsPlugin(), new webpack.HotModuleReplacementPlugin()],
+  devtool: 'source-map',
 }
